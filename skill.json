@@ -1,0 +1,15 @@
+{
+  "name": "genpark-embodied-action-chunking-act-policy-interpolator-skill",
+  "version": "1.0.0",
+  "description": "Physical AI Action Chunking with Transformers (ACT) temporal ensemble interpolator with exponential recency weighting and sliding window smoothing.",
+  "tools": [
+    {
+      "name": "ingest_action_chunk",
+      "description": "Ingest overlapping predicted future action chunk."
+    },
+    {
+      "name": "get_ensembled_action",
+      "description": "Query smoothed ensembled action vector for target step."
+    }
+  ]
+}
